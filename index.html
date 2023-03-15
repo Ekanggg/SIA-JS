@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1 style="color: #fff;">Nextpax</h1>
+    <h3 style="margin-left: 24px; color: gray;">Ready to increase your bookings?</h3><br> <h1 style="margin-left: 24px; color: gray;">Get started</h1>
+</div>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Register Form</h1>
+            <div class="input-control">
+                <label for="firstname">First name<span>*</span></label>
+                <input id="firstname" name="firstname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="lastname">First name<span>*</span></label>
+                <input id="lastname" name="lastname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email<span>*</span></label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+             <div class="input-control">
+                <label for="Phone">Phone Number<span>*</span></label>
+                <input id="telephone"name="phone" type="telephone">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="companyname">Company name<span>*</span></label>
+                <input id="companyname" name="companyname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="properties">How many properties do you manage?<span>*</span></label>
+                <input id="properties" name="properties" type="text">
+                <div class="error"></div>
+            </div>
+             <div class="input-control">
+                <label for="region">Region<span>*</span></label>
+                <input id="region" name="region" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="country">Country<span>*</span></label>
+                <input id="country" name="country" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password<span>*</span></label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again<span>*</span></label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="comments">Leave any comments/questions here!<small>(optional)</small></label>
+                <textarea >
+                    
+                </textarea>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
